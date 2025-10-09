@@ -3,8 +3,8 @@
   "low_confidence_count": 6,
   "high_confidence_count": 10,
   "review_rate": 0.375,
-  "avg_uncertainty": 0.23385939513182347,
-  "avg_confidence": 0.9421294433630428,
+  "avg_uncertainty": 0.22761297721826498,
+  "avg_confidence": 0.9473886708157877,
   "review_batch_size": 6,
-  "timestamp": "2025-10-08T01:35:06.551448"
+  "timestamp": "2025-10-09T01:39:07.724989"
 }

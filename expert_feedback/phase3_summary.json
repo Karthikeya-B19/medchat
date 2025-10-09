@@ -1,6 +1,6 @@
 {
   "phase": "Phase 3 - Human-in-the-Loop Active Learning",
-  "timestamp": "2025-10-08T01:35:07.634347",
+  "timestamp": "2025-10-09T02:27:50.246866",
   "model_info": {
     "base_model": "mistralai/Mistral-7B-Instruct-v0.3",
     "adapter_path": "./model_output"
@@ -14,23 +14,23 @@
     "low_confidence_count": 6,
     "high_confidence_count": 10,
     "review_rate": 0.375,
-    "avg_uncertainty": 0.23385939513182347,
-    "avg_confidence": 0.9421294433630428,
+    "avg_uncertainty": 0.22761297721826498,
+    "avg_confidence": 0.9473886708157877,
     "review_batch_size": 6,
-    "timestamp": "2025-10-08T01:35:06.551448"
+    "timestamp": "2025-10-09T01:39:07.724989"
   },
   "feedback_statistics": {
     "total_annotations": 6,
-    "retraining_samples": 6,
-    "retraining_rate": 1.0,
+    "retraining_samples": 5,
+    "retraining_rate": 0.8333333333333334,
     "rating_distribution": {
       "1": 0,
-      "2": 4,
-      "3": 2,
-      "4": 0,
+      "2": 2,
+      "3": 3,
+      "4": 1,
       "5": 0
     },
-    "avg_rating": 2.3333333333333335,
+    "avg_rating": 2.8333333333333335,
     "output_file": "./expert_feedback/processed_feedback.jsonl"
   },
   "output_files": {
@@ -39,11 +39,5 @@
     "processed_feedback": "./expert_feedback/processed_feedback.jsonl",
     "high_confidence": "./expert_feedback/high_confidence_samples.jsonl",
     "all_results": "./expert_feedback/all_uncertainty_results.jsonl"
-  },
-  "next_steps": [
-    "Use processed_feedback.jsonl for Phase 4 adaptive prompting",
-    "Incorporate expert corrections into prompt engineering",
-    "Monitor uncertainty scores to track improvement",
-    "Iterate active learning cycle for continuous improvement"
-  ]
+  }
 }
