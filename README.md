@@ -18,6 +18,7 @@
 - [Results and Performance](#results-and-performance)
 - [Future Enhancements](#future-enhancements)
 - [Contributing](#contributing)
+- [Contributors](#contributors)
 - [License](#license)
 
 ## 🎯 Overview
@@ -576,6 +577,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Hugging Face** for transformers and PEFT libraries
 - **Medical dialogue dataset providers**
 - **Open-source AI/ML community**
+
+## 👥 Contributors
+
+- **Karthikeya B** ([@Karthikeya-B19](https://github.com/Karthikeya-B19)) - Project Creator & Maintainer
+- **Satya Karthikeya** ([@satyakarthikeya](https://github.com/satyakarthikeya)) - Contributor
 
 ## ⚠️ Disclaimer
 
